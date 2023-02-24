@@ -215,8 +215,9 @@ header {
 }
 
 .nav_item a {
-  color: black;
-  text-decoration: none;
+  color: blue;
+    text-decoration: underline;
+
 }
 
 .nav_item a:hover, a:focus {
