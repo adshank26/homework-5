@@ -280,6 +280,8 @@ header {
 
   .nav_item a {
     padding: 10px;
+    color: blue;
+  text-decoration: underline;
   }
 }
 
