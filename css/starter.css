@@ -1,9 +1,9 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 body {
-  font-family: 'Raleway', sans-serif; /* Test for this*/
+  font-family: "Poppins" , serif; /* Test for this*/
   margin: 0;
   padding: 0;
   font-size: 1em; /* test for this! Make all sizes em or rem */
@@ -71,17 +71,19 @@ Keyframes for animation*/
 @keyframes logo_wiggle {
   from {
     width: 25px;
+      opacity: 0;
   }
   to {
-    width: 420px;
+    width: 475px;
+    opacity: 1;
   }
 } 
 
 #logo {
   -webkit-animation-name: logo_wiggle;
-  -webkit-animation-duration: 3s;
+  -webkit-animation-duration: 5s;
   animation-name: logo_wiggle;
-  animation-duration: 3s;
+  animation-duration: 5s;
 }
 
 /* Cards! */
@@ -108,18 +110,18 @@ Keyframes for animation*/
 .card {
   margin: 12px;
   background: #fff;
-  border-radius: 7px;
+  border-radius: 50px;
   padding: 0 0 50px 0;
   /* spec styles */
-  -ms-flex-preferred-size: 400px;
-      flex-basis: 400px;
+  -ms-flex-preferred-size: 450px;
+      flex-basis: 450px;
 }
 
 .card > header {
   background: #288080;
   border: 2px solid #45ADAD;
   padding: 20px 0;
-  border-radius: 7px 7px 0 0;
+  border-radius: 50px 50px 0 0;
 }
 
 .card > ul {
@@ -221,7 +223,7 @@ header {
 }
 
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 900px) {
 
   /* Cards! */
   /* parent container for card*/
@@ -236,8 +238,8 @@ header {
   }
   .card {
     /* spec styles */
-    -ms-flex-preferred-size: 250px;
-        flex-basis: 250px;
+    -ms-flex-preferred-size: 275px;
+        flex-basis: 275px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -299,8 +301,8 @@ header {
   }
 
   .card {
-    -ms-flex-preferred-size: 200px;
-        flex-basis: 200px;
+    -ms-flex-preferred-size: 325px;
+        flex-basis: 325px;
   }
 
   .gallery {
